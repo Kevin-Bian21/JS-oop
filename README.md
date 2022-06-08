@@ -1,0 +1,1 @@
+在没有主动设置Circle的原型对象时，Circle的原型是有构造器属性的，所以new Circle(1) 和 new Circle.prototype.constructor(1) 都可以创建一个circle对象
